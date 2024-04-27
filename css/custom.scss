@@ -100,136 +100,150 @@ body {
     }
 }
 
-#slider {
-    .slider-container {
-        position: relative;
+#slider > .slider-container {
+    width: 90%;
+}
 
-        .slider-list {
-            width: max-content;
-            height: 100%;
-            position: relative;
-            transition: .5s;
-            
-            display: flex;
-            gap: 60px;
-            justify-content: space-between;
-            align-items: center;
+#carousel {
+    position: relative;
 
-            .slider-items {
+    .carousel-inner {
+
+        .carousel-item {
+            padding: 30px;
+
+            .sliders {
+                width: 100%;
                 height: 320px;
+                padding: 30px 50px;
+                margin: 0 auto;
+                border-radius: 20px;
                 color: #fff;
-    
+                background-color: $yellow-color;
                 position: relative;
-                p {
-                    font-weight: bold;
-                    line-height: 1rem;
+                overflow: hidden;
+
+                display: flex;
+                align-items: center;
+    
+                
+                .col-12 {
+                    p {
+                        font-weight: bold;
+                        line-height: 1rem;
+                        margin-top: 5%;
+                        font-size: 1.4rem;
+                    }
+                    h1 {
+                        font-size: 3.5rem;
+                        font-weight: bolder;
+                        position: relative;
+                    }
+                    img {
+                        width: 500px;
+                        position: absolute;
+                        top: 12%;
+                        right: 5%;
+                        z-index: 3;
+                    }
                 }
-                h1 {
-                    font-weight: bolder;
-                    position: relative;
-                    z-index: 2;
-                }
-                img {
-                    width: 450px;
+                
+                .bubble-lg {
+                    width: 600px;
+                    height: 600px;
+                    padding: 30px;
+                    border: 2px solid $bg-color;
+                    border-radius: 50%;
+                    opacity: .5;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+        
                     position: absolute;
-                    z-index: 2;
+                    top: -400px;
+                    right: -5%;
+                }
+        
+                .bubble-lg > .inner-bubble {
+                    width: 100%;
+                    height: 100%;
+                    background-color: $bg-color;
+                    border-radius: 50%;
+                }
+        
+                .bubble-sm {
+                    width: 180px;
+                    height: 180px;
+                    padding: 20px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    opacity: .5;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+        
+                    position: absolute;
+                    bottom: -100px;
+                    right: 25%;
+                }
+        
+                .bubble-sm > .inner-bubble {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #fff;
+                    border-radius: 50%;
                 }
             }
-
-
-        .bubble-lg {
-            padding: 30px;
-            border: 2px solid $bg-color;
-            border-radius: 50%;
-            opacity: .5;
-            
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            position: absolute;
         }
+    }
 
-        .bubble-lg > .inner-bubble {
+    button {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: #fff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+        position: absolute;
+        top: 45%;
+
+        i {
             width: 100%;
             height: 100%;
             background-color: $bg-color;
+            color: #333;
             border-radius: 50%;
-        }
 
-        .bubble-sm {
-            width: 180px;
-            height: 180px;
-            padding: 20px;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            opacity: .5;
-            
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            position: absolute;
-        }
-
-        .bubble-sm > .inner-bubble {
-            width: 100%;
-            height: 100%;
-            background-color: #fff;
-            border-radius: 50%;
-        }
-
-        }
- 
-    }
-
-    .arrow-container {
-        width: 100%;
-        height: 50px;
-        padding: 0 100px;
-        position: absolute;
-        top: 330px;
-        left: 0;
-        z-index: 4;
-        
-        span {
-            width: 50px;
-            height: 50px;
-            padding: 10px;
-            background-color: #fff;
-            
-            a {
-                text-decoration: none;
-                width: 100%;
-                height: 100%;
-                border-radius: 50%;
-                font-size: 18px;
-                text-align: center;
-                color: #333;
-                background-color: $bg-color;
-            }
+            @include center-div();
         }
     }
 
-    .dot-container {
+
+    .carousel-indicators {
         list-style-type: none;
-        display: flex;
+        width: fit-content;
+        position: absolute;
+        bottom: 15%;
+        left: -80px;
 
-        position: relative;
-        // top: 80%;
-        // left: 50px;
-        z-index: 4;
+        input {
+            display: none;
+        }
 
-        .dots {
+        label {
             width: 10px;
             height: 10px;
-            margin: 0 5px;
+            margin: 5px;
             border-radius: 20px;
             background-color: #fff;
             transition: .5s;
             cursor: pointer;
-        }
-        .dots.active {
+        }        
+
+        label.active {
             width: 30px;
         }
     }

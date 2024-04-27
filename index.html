@@ -6,7 +6,7 @@
     <title>Mini Tech</title>
 
     <!-- Bootstrap Link Connect -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
@@ -97,106 +97,121 @@
     <!-- Slider Section Start -->
     <section class="container-fluid" id="slider">
         
-        <div class="container slider-container">
+        <div class="mx-auto slider-container">
 
-            <div class="slider-list">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" id="carousel">
 
-                <div class="row slider-items">
-                    <div class="col-12 col-lg-8">
-                        <p>Optimized & Industry-ready Solutions</p>
-                        <h1>End To End Solution For <br> All Your Needs</h1>
+                  <div class="carousel-indicators">
+                    
+                    <label for="one" class="active"></label>
+                    <input type="radio" name="one" id="one" data-bs-target="#carousel" data-bs-slide-to="0" class="active">
+
+                    <label for="two"></label>
+                    <input type="radio" name="two" id="two" data-bs-target="#carousel" data-bs-slide-to="1">
+
+                    <label for="three"></label>
+                    <input type="radio" name="three" id="three" data-bs-target="#carousel" data-bs-slide-to="2">
+
+                    <label for="four"></label>
+                    <input type="radio" name="four" id="four" data-bs-target="#carousel" data-bs-slide-to="3">
+
+                  </div>
+
+                <!-- carousel container -->
+                <div class="carousel-inner py-4">
+
+                    <div class="carousel-item active">
+                        <div class="row sliders">
+                            <div class="col-12 col-lg-8">
+                                <p>Optimized & Industry-ready Solutions</p>
+                                <h1>End To End Solution For <br> All Your Needs</h1>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="photos/slider1.png" alt="#">
+                            </div>
+        
+                            <div class="bubble-lg">
+                                <div class="inner-bubble"></div>
+                            </div>
+                            <div class="bubble-sm">
+                                <div class="inner-bubble"></div>
+                            </div>
+        
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-4">
-                        <img src="photos/slider1.png" alt="#">
+    
+                    <div class="carousel-item">
+                        <div class="row sliders">
+                            <div class="col-12 col-lg-8">
+                                <p>Explore the key features and technical specifications </p>
+                                <h1>AI Computing  <br>Edge Server</h1>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="photos/feature-3.svg" alt="#" width="250px" height="250px">
+                            </div>
+        
+                            <div class="bubble-lg">
+                                <div class="inner-bubble"></div>
+                            </div>
+                            <div class="bubble-sm">
+                                <div class="inner-bubble"></div>
+                            </div>
+        
+                        </div>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="row sliders">
+                            <div class="col-12 col-lg-8">
+                                <p>Equipment for precise fiber optic inspection and testing</p>
+                                <h1>Fiber Inspection Equipment<br> Fiber Microscope</h1>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="photos/slider3.svg" alt="#" width="250px" height="250px">
+                            </div>
+        
+                            <div class="bubble-lg">
+                                <div class="inner-bubble"></div>
+                            </div>
+                            <div class="bubble-sm">
+                                <div class="inner-bubble"></div>
+                            </div>
+        
+                        </div>
                     </div>
 
-                    <div class="bubble-lg">
-                        <div class="inner-bubble"></div>
+                    <div class="carousel-item">
+                        <div class="row sliders">
+                            <div class="col-12 col-lg-8">
+                                <p>Wireless equipment for reliable connectivity</p>
+                                <h1>Wireless Networking <br> Equipment </h1>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="photos/slider4.svg" alt="#" width="450px" height="350px" style="transform: translateY(-10%);" >
+                            </div>
+        
+                            <div class="bubble-lg">
+                                <div class="inner-bubble"></div>
+                            </div>
+                            <div class="bubble-sm">
+                                <div class="inner-bubble"></div>
+                            </div>
+        
+                        </div>
                     </div>
-                    <div class="bubble-sm">
-                        <div class="inner-bubble"></div>
-                    </div>
-
+    
                 </div>
 
-                <div class="row slider-items">
-                    <div class="col-12 col-lg-8">
-                        <p>Explore the key features and technical specifications </p>
-                        <h1>AI Computing  <br>Edge Server</h1>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <img src="photos/feature-3.svg" alt="#" width="250px" height="250px">
-                    </div>
+                <!-- arrows -->
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
 
-                    <div class="bubble-lg">
-                        <div class="inner-bubble"></div>
-                    </div>
-                    <div class="bubble-sm">
-                        <div class="inner-bubble"></div>
-                    </div>
-
-                </div>
-
-                <div class="row slider-items">
-                    <div class="col-12 col-lg-8">
-                        <p>Equipment for precise fiber optic inspection and testing</p>
-                        <h1>Fiber Inspection Equipment<br> Fiber Microscope</h1>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <img src="photos/slider3.svg" alt="#" width="250px" height="250px">
-                    </div>
-
-                    <div class="bubble-lg">
-                        <div class="inner-bubble"></div>
-                    </div>
-                    <div class="bubble-sm">
-                        <div class="inner-bubble"></div>
-                    </div>
-
-                </div>
-
-                <div class="row slider-items">
-                    <div class="col-8">
-                        <p>Wireless equipment for reliable connectivity</p>
-                        <h1>Wireless Networking <br> Equipment </h1>
-                    </div>
-                    <div class="col-4">
-                        <img src="photos/slider4.svg" alt="#" width="450px" height="350px" style="transform: translateY(-10%);">
-                    </div>
-
-                    <div class="bubble-lg">
-                        <div class="inner-bubble"></div>
-                    </div>
-                    <div class="bubble-sm">
-                        <div class="inner-bubble"></div>
-                    </div>
-
-                </div>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
 
             </div>
-            
-        </div>
-        
-        <!-- arrows -->
-        <div class="d-none d-lg-flex justify-content-between arrow-container">
-
-            <span class="rounded-pill d-flex justify-content-center align-items-center">
-                <a href="#" id="prev"><</a>
-            </span>
-            <span class="rounded-pill d-flex justify-content-center align-items-center">
-                <a href="#" id="next">></a>
-            </span>
-
-        </div>
-
-        <!-- Dots -->
-        <ul class="dot-container">
-            <li class="dots active"></li>
-            <li class="dots"></li>
-            <li class="dots"></li>
-            <li class="dots"></li>
-        </ul>
-
     </section>
     <!-- Slider Section End -->
 
@@ -876,7 +891,7 @@
 
 
     <!-- Bootstrap Script Connect -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Fontawesome Link -->
     <script src="https://kit.fontawesome.com/149adfc48b.js" crossorigin="anonymous"></script>

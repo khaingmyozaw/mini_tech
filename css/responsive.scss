@@ -7,52 +7,63 @@
     }
 
     #slider{
-        height: 550px;
-        padding: 30px 0;
-        overflow: hidden;
+        padding: 0;
 
-        .slider-container{
-            height: 100%;
-            padding: 0;
-            overflow: hidden;
+        .slider-container {
+            width: 100vw;
+        }
+    } 
+
+    #carousel {
+    
+        .carousel-inner {
+    
+            .carousel-item {
+                padding: 0;
+    
+                .sliders {
+                    height: 500px;
+                    padding: 10px 30px;
+                    border-radius: 0;
+                    
+                    .col-12 {
+                        p {
+                            font-weight: bold;
+                            line-height: 1rem;
+                            margin-top: 5%;
+                            font-size: 1.4rem;
+                        }
+                        h1 {
+                            font-size: 2.5rem;
+                            font-weight: bolder;
+                            position: relative;
+                        }
+                        img {
+                            width: 400px;
+                            top: 50%;
+                            right: -50px;
+                        }
+                    }
+                    
+                    .bubble-lg {
+                        width: 450px;
+                        height: 450px;
             
-            .slider-list {
-                background-color: #FFCB05;
-                width: max-content;
-               
-                .slider-items {
-                   width: 100%;
-                   padding: 20px;
-                   overflow: visible;
-
-                   p {
-                    font-size: 1rem;
-                   }
-                   h1 {
-                    font-size: 2rem;
-                   }
-                   img {
-                    left: 0;
-                    top: 40%;
-                   }
+                        position: absolute;
+                        top: -100px;
+                        right: -20%;
+                    }
                 }
             }
-
-            .bubble-lg {
-                width: 450px;
-                height: 450px;
-                top: -80%;
-                right: -15%;
-            }
-            .bubble-sm {
-                bottom: -50%;
-                right: 20%;
-            }
-
         }
-        .dot-container {
+    
+        button {
+            display: none;
+        }
+    
+        .carousel-indicators {
+            left: 25%;
             bottom: -20px;
-            left: 30%;
         }
     }
 
@@ -173,10 +184,6 @@
         color: #666;
         padding: 10px;
     }
-    .list-items.active button {
-        border-bottom: 2px solid $blue-color;
-        color: $blue-color;
-    }
     hr {
         width: 1px;
         height: 20px;
@@ -184,39 +191,12 @@
     }
 
     .list-items button:hover {
-        color: $blue-color;
         transition: .55s;
     }
 }
      
 
 }
-  
-
-// For Tablets
-// @media screen and (min-width: 601px) and (max-width: 768px) {
-//     .customer-service > .customer-service-btn > h5 {
-//         font-size: 12px;
-//     }
-
-//     // Menu items
-//     #menu-section .menu-icon-container  .menu-icons {
-//         margin: 0 25px;
-//         padding: 0 10px;
-//         font-size: 1rem;
-//     }
-
-//     // Slider Section 
-//     #slider .slider-container {
-//         height: 400px;
-
-//         .slider-list {
-//             height: 300px;
-//             padding: 10px 0px;
-//         }
-//     }
-
-// }
 
 // For Laptops and Larger Devices 
 @media only screen and (min-width: 769px) {
@@ -225,54 +205,6 @@
     #menu-section .menu-icon-container  .menu-icons {
         margin: 0 25px;
         padding: 0 20px;
-    }
-
-    #slider{
-        overflow: hidden;
-
-        .slider-container{
-            height: 400px;
-            padding: 20px;
-            overflow: hidden;
-
-            .slider-list {
-               
-               .slider-items {
-                   width: 80vw;
-                    // width: 1100px;
-                   padding: 50px;
-                   border-radius: 20px;
-                   background-color: #FFCB05;
-                   overflow: hidden;
-
-                   p {
-                    margin-top: 5%;
-                    font-size: 1.4rem;
-                   }
-                   h1 {
-                    font-size: 3.5rem;
-                   }
-                   img {
-                    right: 50px;
-                   }
-                }
-            }
-
-            .bubble-lg {
-                width: 600px;
-                height: 600px;
-                top: -120%;
-                right: -40px;
-            }
-            .bubble-sm {
-                bottom: -100px;
-                right: 280px;
-            }
-        }
-        .dot-container {
-            bottom: 100px;
-            left: 140px;
-        }
     }
 
 }
