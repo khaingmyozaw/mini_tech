@@ -1,0 +1,172 @@
+@media screen and (max-width: 600px) {
+  #menu-section .menu-icon-container .menu-icons.active {
+    color: #FFCB05;
+  }
+  #slider {
+    height: 550px;
+    padding: 30px 0;
+    overflow: hidden;
+  }
+  #slider .slider-container {
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+  #slider .slider-container .slider-list {
+    background-color: #FFCB05;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  #slider .slider-container .slider-list .slider-items {
+    width: 100%;
+    padding: 20px;
+    overflow: visible;
+  }
+  #slider .slider-container .slider-list .slider-items p {
+    font-size: 1rem;
+  }
+  #slider .slider-container .slider-list .slider-items h1 {
+    font-size: 2rem;
+  }
+  #slider .slider-container .slider-list .slider-items img {
+    left: 0;
+    top: 40%;
+  }
+  #slider .slider-container .bubble-lg {
+    width: 450px;
+    height: 450px;
+    top: -80%;
+    right: -15%;
+  }
+  #slider .slider-container .bubble-sm {
+    bottom: -50%;
+    right: 20%;
+  }
+  #slider .dot-container {
+    bottom: -20px;
+    left: 30%;
+  }
+  #products > .container .product-list .product-items {
+    display: none;
+    height: 500px;
+    padding: 20px 10px;
+  }
+  #products > .container .product-list .product-items img {
+    margin-top: 20%;
+    scale: 2;
+  }
+  #products > .container .product-list .product-items .contents h6 {
+    font-size: 2rem;
+    margin-top: 20%;
+  }
+  #products > .container .product-list .product-items .contents p {
+    font-size: 1.2rem;
+  }
+  #products > .container .product-list .product-items.active {
+    display: flex;
+  }
+  #about-us {
+    padding: 0;
+    background: url(/photos/about-img-2.png);
+    background-position: center;
+    background-size: cover;
+  }
+  #about-us .about-us-container {
+    padding: 80px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  #about-us .about-us-container .contents {
+    padding: 10px 0 10px 20px;
+    color: #fff;
+  }
+  #about-us .about-us-container .contents h6 {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  #about-us .about-us-container .contents p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  #about-us .about-us-container .contents button {
+    font-size: 1.2rem;
+  }
+  #get-in-touch {
+    width: 100vw;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #get-in-touch .row {
+    padding: 60px 30px;
+  }
+  #get-in-touch .row .contents p {
+    width: 100%;
+  }
+  #get-in-touch .row form {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #info > .container > .row .col-12 h3 {
+    font-size: 2rem;
+  }
+  #info > .container > .row .col-12 address {
+    font-size: 1.2rem;
+  }
+  #info > .container > .row .col-12 h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  #info > .container > .row .col-12 a {
+    font-size: 1.2rem;
+  }
+  #info > .container > .row .col-12 a > img {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #menu-section .menu-icon-container .menu-icons {
+    margin: 0 25px;
+    padding: 0 20px;
+  }
+  #slider {
+    overflow: hidden;
+  }
+  #slider .slider-container {
+    height: 400px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  #slider .slider-container .slider-list .slider-items {
+    width: 80vw;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #FFCB05;
+    overflow: hidden;
+  }
+  #slider .slider-container .slider-list .slider-items p {
+    margin-top: 5%;
+    font-size: 1.4rem;
+  }
+  #slider .slider-container .slider-list .slider-items h1 {
+    font-size: 3.5rem;
+  }
+  #slider .slider-container .slider-list .slider-items img {
+    right: 50px;
+  }
+  #slider .slider-container .bubble-lg {
+    width: 600px;
+    height: 600px;
+    top: -120%;
+    right: -40px;
+  }
+  #slider .slider-container .bubble-sm {
+    bottom: -100px;
+    right: 280px;
+  }
+  #slider .dot-container {
+    bottom: 100px;
+    left: 140px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

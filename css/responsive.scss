@@ -1,0 +1,279 @@
+// For Mobiles and Smaller Devices
+@media screen and (max-width: 600px) {
+    
+    // Menu Items
+    #menu-section .menu-icon-container  .menu-icons.active {
+        color: #FFCB05;
+    }
+
+    #slider{
+        height: 550px;
+        padding: 30px 0;
+        overflow: hidden;
+
+        .slider-container{
+            height: 100%;
+            padding: 0;
+            overflow: hidden;
+            
+            .slider-list {
+                background-color: #FFCB05;
+                width: max-content;
+               
+                .slider-items {
+                   width: 100%;
+                   padding: 20px;
+                   overflow: visible;
+
+                   p {
+                    font-size: 1rem;
+                   }
+                   h1 {
+                    font-size: 2rem;
+                   }
+                   img {
+                    left: 0;
+                    top: 40%;
+                   }
+                }
+            }
+
+            .bubble-lg {
+                width: 450px;
+                height: 450px;
+                top: -80%;
+                right: -15%;
+            }
+            .bubble-sm {
+                bottom: -50%;
+                right: 20%;
+            }
+
+        }
+        .dot-container {
+            bottom: -20px;
+            left: 30%;
+        }
+    }
+
+    
+    #products > .container {
+        .product-list {
+    
+            .product-items {
+                display: none;
+                height: 500px;
+                padding: 20px 10px;
+    
+                img {
+                    margin-top: 20%;
+                    scale: 2;
+                }
+    
+                .contents {
+    
+                    h6 {
+                        font-size: 2rem;
+                        margin-top: 20%;
+                    }
+                    p {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+            .product-items.active {
+                display: flex;
+            }
+        }
+    
+    }
+
+    #about-us {
+        padding: 0;
+        background: url(/photos/about-img-2.png);
+        background-position: center;
+        background-size: cover;
+        
+        .about-us-container {
+            padding: 80px 20px;
+            background-color: rgba(0, 0, 0, .4);
+
+            .contents {
+                padding: 10px 0 10px 20px;
+                color: #fff;
+
+                h6 {
+                    font-size: 1.2rem;
+                    color: #fff;
+                }
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 20px;
+                    color: #fff;
+                }
+                button {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    #get-in-touch {
+        width: 100vw;
+        height: fit-content;
+    
+        .row {
+            padding: 60px 30px;
+
+            .contents {
+                p {
+                    width: 100%;
+                }
+            }
+            form {
+                width: 100%;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    #info > .container > .row {
+
+        .col-12 {
+         h3 {
+            font-size: 2rem;
+         }
+         address {
+             font-size: 1.2rem;
+         }
+     
+         h5 {
+             font-size: 1.2rem;
+             font-weight: bold;
+             margin: 20px 0;
+         }
+         a {
+             font-size: 1.2rem;
+         }
+     
+         a > img {
+             width: 45px;
+             height: 45px;
+         }
+        }
+        
+     
+     }
+
+     #list-lg > .list-container {
+
+    .list-items button {
+        border: 0;
+        outline: none;
+        color: #666;
+        padding: 10px;
+    }
+    .list-items.active button {
+        border-bottom: 2px solid $blue-color;
+        color: $blue-color;
+    }
+    hr {
+        width: 1px;
+        height: 20px;
+        background-color: #000;
+    }
+
+    .list-items button:hover {
+        color: $blue-color;
+        transition: .55s;
+    }
+}
+     
+
+}
+  
+
+// For Tablets
+// @media screen and (min-width: 601px) and (max-width: 768px) {
+//     .customer-service > .customer-service-btn > h5 {
+//         font-size: 12px;
+//     }
+
+//     // Menu items
+//     #menu-section .menu-icon-container  .menu-icons {
+//         margin: 0 25px;
+//         padding: 0 10px;
+//         font-size: 1rem;
+//     }
+
+//     // Slider Section 
+//     #slider .slider-container {
+//         height: 400px;
+
+//         .slider-list {
+//             height: 300px;
+//             padding: 10px 0px;
+//         }
+//     }
+
+// }
+
+// For Laptops and Larger Devices 
+@media only screen and (min-width: 769px) {
+
+    // Menu items
+    #menu-section .menu-icon-container  .menu-icons {
+        margin: 0 25px;
+        padding: 0 20px;
+    }
+
+    #slider{
+        overflow: hidden;
+
+        .slider-container{
+            height: 400px;
+            padding: 20px;
+            overflow: hidden;
+
+            .slider-list {
+               
+               .slider-items {
+                   width: 80vw;
+                    // width: 1100px;
+                   padding: 50px;
+                   border-radius: 20px;
+                   background-color: #FFCB05;
+                   overflow: hidden;
+
+                   p {
+                    margin-top: 5%;
+                    font-size: 1.4rem;
+                   }
+                   h1 {
+                    font-size: 3.5rem;
+                   }
+                   img {
+                    right: 50px;
+                   }
+                }
+            }
+
+            .bubble-lg {
+                width: 600px;
+                height: 600px;
+                top: -120%;
+                right: -40px;
+            }
+            .bubble-sm {
+                bottom: -100px;
+                right: 280px;
+            }
+        }
+        .dot-container {
+            bottom: 100px;
+            left: 140px;
+        }
+    }
+
+}
+

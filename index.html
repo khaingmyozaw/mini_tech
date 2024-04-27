@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Tech</title>
+
+    <!-- Bootstrap Link Connect -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+    
+    <!-- Page Start -->
+
+    <!-- Header Start -->
+    <header class="container-fluid py-4" id="header-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- brand name -->
+                <div class="col-8 col-lg-3">
+                    <h2 class="fw-bold">Mini Tech</h2>
+                </div>
+
+                <!-- search box -->
+                <div class="d-none col-lg-5 d-lg-flex">
+                    <input type="text" class="form-control px-4 py-2 mx-2 search-box" placeholder="Search.....">
+                </div>
+                
+                <!-- search button -->
+                <div class="col-2">
+                    <button class="btn d-flex align-items-center justify-content-center search-icon">
+                        <img src="photos/search.png" alt="search icon">
+                    </button>
+                </div>
+
+                <!-- customer service button -->
+                <div class="col-2 customer-service">
+                    <button class="btn d-none d-lg-flex align-items-center customer-service-btn">
+                        <img src="photos/ic_baseline-support-agent.svg" alt="girl support">
+                        <h5 class="fw-bold hello">Customer Support</h5>
+                    </button>
+
+                    <button class="btn d-lg-none d-flex align-items-center justify-content-center menu-icon">
+                        <img src="photos/menu.svg" alt="menu">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Menu Section Start -->
+    <section class="container-fluid py-4" id="menu-section">
+        <div class="container">
+            <div class="mx-auto fw-bold d-flex justify-content-center menu-icon-container">
+               
+                <a href="#" class="menu-icons active">
+                    <img src="photos/home.svg" alt="home" class="d-lg-none">
+                    Home
+                </a>
+                <hr class="d-lg-none dividers">
+
+                <a href="#products" class="menu-icons">
+                    <img src="photos/product.svg" alt="home" class="d-lg-none">
+                    Products
+                </a>
+                <hr class="d-lg-none dividers">
+
+                <a href="#services" class="menu-icons">
+                    <img src="photos/service.svg" alt="home" class="d-lg-none">
+                    Services
+                </a>
+                <hr class="d-lg-none dividers">
+                
+                <a href="#about-us" class="menu-icons">
+                    <img src="photos/about.svg" alt="home" class="d-lg-none">
+                    About Us
+                </a>
+                <hr class="d-lg-none dividers">
+
+                <a href="#get-in-touch" class="menu-icons">
+                    <img src="photos/contact.svg" alt="home" class="d-lg-none">
+                    Contact Us
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Slider Section Start -->
+    <section class="container-fluid" id="slider">
+        
+        <div class="container slider-container">
+
+            <div class="slider-list">
+
+                <div class="row slider-items">
+                    <div class="col-12 col-lg-8">
+                        <p>Optimized & Industry-ready Solutions</p>
+                        <h1>End To End Solution For <br> All Your Needs</h1>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="photos/slider1.png" alt="#">
+                    </div>
+
+                    <div class="bubble-lg">
+                        <div class="inner-bubble"></div>
+                    </div>
+                    <div class="bubble-sm">
+                        <div class="inner-bubble"></div>
+                    </div>
+
+                </div>
+
+                <div class="row slider-items">
+                    <div class="col-12 col-lg-8">
+                        <p>Explore the key features and technical specifications </p>
+                        <h1>AI Computing  <br>Edge Server</h1>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="photos/feature-3.svg" alt="#" width="250px" height="250px">
+                    </div>
+
+                    <div class="bubble-lg">
+                        <div class="inner-bubble"></div>
+                    </div>
+                    <div class="bubble-sm">
+                        <div class="inner-bubble"></div>
+                    </div>
+
+                </div>
+
+                <div class="row slider-items">
+                    <div class="col-12 col-lg-8">
+                        <p>Equipment for precise fiber optic inspection and testing</p>
+                        <h1>Fiber Inspection Equipment<br> Fiber Microscope</h1>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="photos/slider3.svg" alt="#" width="250px" height="250px">
+                    </div>
+
+                    <div class="bubble-lg">
+                        <div class="inner-bubble"></div>
+                    </div>
+                    <div class="bubble-sm">
+                        <div class="inner-bubble"></div>
+                    </div>
+
+                </div>
+
+                <div class="row slider-items">
+                    <div class="col-8">
+                        <p>Wireless equipment for reliable connectivity</p>
+                        <h1>Wireless Networking <br> Equipment </h1>
+                    </div>
+                    <div class="col-4">
+                        <img src="photos/slider4.svg" alt="#" width="450px" height="350px" style="transform: translateY(-10%);">
+                    </div>
+
+                    <div class="bubble-lg">
+                        <div class="inner-bubble"></div>
+                    </div>
+                    <div class="bubble-sm">
+                        <div class="inner-bubble"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+        <!-- arrows -->
+        <div class="d-none d-lg-flex justify-content-between arrow-container">
+
+            <span class="rounded-pill d-flex justify-content-center align-items-center">
+                <a href="#" id="prev"><</a>
+            </span>
+            <span class="rounded-pill d-flex justify-content-center align-items-center">
+                <a href="#" id="next">></a>
+            </span>
+
+        </div>
+
+        <!-- Dots -->
+        <ul class="dot-container">
+            <li class="dots active"></li>
+            <li class="dots"></li>
+            <li class="dots"></li>
+            <li class="dots"></li>
+        </ul>
+
+    </section>
+    <!-- Slider Section End -->
+
+    <!-- Category Section Start -->
+    <section class="text-center py-4 d-none d-lg-block" id="category">
+            <h2>Product Categories</h2>
+            <p class="text-muted mb-4">Explore our range of essential networking components, including routers, switches, and modems, designed to build and optimize your network infrastructure</p>
+
+            <div class="container-fluid category-container">
+
+                <div class="container">
+                    <div class="row py-5 justify-content-between">
+
+                        <div class="col-2 categories">
+                            <img src="photos/feature-1.png " alt="category" class="category-img">
+        
+                            <div class="text-center">
+                                <h6>Network Components</h6>
+                                <p>200 Products</p>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 categories">
+                            <img src="photos/wood.png " alt="category" class="category-img">
+        
+                            <div class="text-center">
+                                <h6>Cable Tools</h6>
+                                <p>165 Products</p>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 categories">
+                            <img src="photos/slider3.svg " alt="category" class="category-img">
+        
+                            <div class="text-center">
+                                <h6>Fiber Inspection</h6>
+                                <p>180 Products</p>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 categories">
+                            <img src="photos/feature-3.svg " alt="category" class="category-img">
+        
+                            <div class="text-center">
+                                <h6>Network Devices</h6>
+                                <p>120 Products</p>
+                            </div>
+                        </div>
+        
+                        <div class="col-2 categories">
+                            <img src="photos/leak.png " alt="category" class="category-img">
+        
+                            <div class="text-center">
+                                <h6> Wireless Gear</h6>
+                                <p>250 Products</p>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Category Section End -->
+    
+    <section class="container-fluid py-4 d-block d-lg-none" id="list-sm">
+
+       <div class="container">
+         <h2>Product Categories</h2>
+         
+         <div class="list-container">
+            <div class="list-items active">
+                <button class="showNC">Network Components</button>
+            </div>
+            <hr>
+            <div class="list-items">
+                <button class="showCT">Cable Tools</button>
+            </div>
+            <hr>
+            <div class="list-items">
+                <button class="showFI">Fiber Inspection</button>
+            </div>
+            <hr>
+            <div class="list-items">
+                <button class="showND">Network Devices</button>
+            </div>
+            <hr>
+            <div class="list-items">
+                <button class="showWG">Wireless Gear</button>
+            </div>
+         </div>
+         
+       </div>
+       
+    </section>
+
+    <section class="text-center py-4 d-none d-lg-block" id="list-lg">
+        <h2>Introducing Our Products</h2>
+        <div class="mx-auto d-flex justify-content-center align-items-center list-container">
+            <div class="mx-3 list-items active">
+                <button class="showAll">All</button>
+            </div>
+            <hr>
+            <div class="mx-3 list-items">
+                <button class="showNC">Network Components</button>
+            </div>
+            <hr>
+            <div class="mx-3 list-items">
+                <button class="showCT">Cable Tools</button>
+            </div>
+            <hr>
+            <div class="mx-3 list-items">
+                <button class="showFI">Fiber Inspection</button>
+            </div>
+            <hr>
+            <div class="mx-3 list-items">
+                <button class="showND">Network Devices</button>
+            </div>
+            <hr>
+            <div class="mx-3 list-items">
+                <button class="showWG">Wireless Gear</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Products List Section Start -->
+    <section class="container-fluid py-4" id="products">
+        <div class="container">
+            
+            <div class="row gap-3 justify-content-around product-list">
+    
+                <!-- product items 1 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items NC active">
+                    <img src="photos/product-1.png" alt="product" id="img">
+    
+                   <div class="contents">
+                    <h6>RL8602</h6>
+                    <p>2U Height, 2 service slots, 2*8 uplinks with 10GE/GE</p>
+                   </div>
+                </div>
+    
+                <!-- product items 2 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items NC active">
+                    <img src="photos/product-2.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL8605</h6>
+                    <p>5U Height, 7 service slots, 2*8 uplinks with 10GE/25GE</p>
+                   </div>
+                </div>
+    
+                <!-- product items 3 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items NC active">
+                    <img src="photos/product-3.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>XGS PON - RL8016XGS</h6>
+                    <p>16*XGSPON + 2*100GE QSFP28+2*25G
+                        SFP(+4*10GE SFP)</p>
+                   </div>
+                </div>
+    
+                <!-- product items 4 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items CT">
+                    <img src="photos/product-4.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>XGS PON - RL8002XGS</h6>
+                    <p>2*XGSPON + 2*10GE SFP+ 2*GE SFP+ 8*GE RJ45</p>
+                   </div>
+                </div>
+    
+                <!-- product items 5 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items CT">
+                    <img src="photos/product-5.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL8001GL</h6>
+                    <p>1*GPON+1*2.5GE RJ45+3*GE RJ45</p>
+                   </div>
+                </div>
+                <!-- product items 6 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items CT">
+                    <img src="photos/product-6.png" alt="product">
+    
+                   <div class="contents">
+                    <h6 class="">XS8200A</h6>
+                    <p>XGS PON + 1*10GE+ 1GE</p>
+                   </div>
+                </div>
+    
+                <!-- product items 7 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items FI">
+                    <img src="photos/product-7.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL804XGS-B</h6>
+                    <p>XGS PON + 4GE + USB</p>
+                   </div>
+                </div>
+    
+                <!-- product items 8 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items FI">
+                    <img src="photos/product-8.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>XS8431A</h6>
+                    <p>XGS PON + 3*GE + 2.5G LAN+ 1POTS + AX3000+ 1USB</p>
+                   </div>
+                </div>
+    
+                <!-- product items 9 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items FI">
+                    <img src="photos/product-9.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL821GWV-OTT</h6>
+                    <p>COMBO ONU, 1GE+1FE+ 1POTS+ 2*2 11n + HDMI+ AV</p>
+                   </div>
+                </div>
+    
+                <!-- product items 10 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items ND">
+                    <img src="photos/product-10.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL841XGWV-DGB</h6>
+                    <p>XG PON+4GE LAN+1POTS+AX1800+ 1USB</p>
+                   </div>
+                </div>
+    
+                <!-- product items 11 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items ND">
+                    <img src="photos/product-11.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL841GWVC-DGB</h6>
+                    <p>GPON ONU, 4G+1POTS+2*2 11n+ 2*2 11ac+CATV +WDM+USB</p>
+                   </div>
+                </div>
+    
+                <!-- product items 12 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items ND">
+                    <img src="photos/product-12.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL820GW-AX3 </h6>
+                    <p>GPON ONU, 2GE+2.4G 2*2 11ax+  5.8G 3*3 11ax, 3000Mbps</p>
+                   </div>
+                </div>
+    
+                <!-- product items 13 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items WG">
+                    <img src="photos/product-13.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL841GW -AX3B</h6>
+                    <p>GPON ONU, 4GE+1POTS+ 2*2 11ax+  USB, WiFi 6, 3000Mbps</p>
+                   </div>
+                </div>
+    
+                <!-- product items 14 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items WG">
+                    <img src="photos/product-14.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>RL8231A</h6>
+                    <p>DUAL BAND WiFi 6 with Speeds up to 2976Mbps WAN port, 1*1000Mbps</p>
+                   </div>
+                </div>
+    
+                <!-- product items 15 -->
+                <div class="mb-3 rounded border col-12 col-lg-2 product-items WG">
+                    <img src="photos/product-15.png" alt="product">
+    
+                   <div class="contents">
+                    <h6>FM8744A</h6>
+                    <p>10G PON Master Gateway Enterprise
+                        Link GPON+SFP+1*2.5GE+4*GE</p>
+                   </div>
+                </div>
+    
+            </div>
+
+            <a href="products.html" class="btn btn-lg mx-auto my-4 py-2 px-4 d-block d-lg-none view-more">
+                View More
+            </a>
+            <hr class="d-lg-none">
+
+        </div>
+    </section>
+    <!-- Products List Section End -->
+
+    <!-- Arrivals Section Start -->
+    <section class="container-fluid py-4 d-none d-lg-block" id="arrivals">
+        <div class="container">
+            <h2>Latest Arrivals</h2>
+            <p>Explore our newest FTTH network devices for cutting-edge network solutions</p>
+
+            <div class="row rounded bg-light lg-items">
+
+                <div class="col-3 item-lt">
+                    <h2>
+                        Explore Our <br>
+                        Products
+                    </h2>
+                    <button class="btn py-2 px-4">Learn More</button>
+                </div>
+                <div class="col-9 item-rt-container">
+                    <div class="row">
+                        
+                        <!-- right item 1 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>AX 3000 PLC</h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-1.png" alt="arrivals">
+                        </div>
+                        
+                        <!-- right item 2 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>FM8744A</h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-2.png" alt="arrivals">
+                        </div>
+                        
+                        <!-- right item 3 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>RL8231A</h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-3.png" alt="arrivals">
+                        </div>
+                        
+                        <!-- right item 4 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>RL820GW-AX3 </h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-4.png" alt="arrivals">
+                        </div>
+                        
+                        <!-- right item 5 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>Fiber Microscope</h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-5.png" alt="arrivals">
+                        </div>
+                        
+                        <!-- right item 6 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>KPN-35</h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-6.png" alt="arrivals">
+                        </div>
+                        
+                        <!-- right item 7 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>IRLT3327</h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-7.png" alt="arrivals">
+                        </div>
+                        
+                        <!-- right item 8 -->
+                        <div class="col-3 d-flex justify-content-between item-rt">
+                            <div>
+                                <h6>TM-6T</h6>
+                                <p>
+                                    Product <br>
+                                    description
+                                </p>
+                            </div>
+                            <img src="photos/arrival-8.png" alt="arrivals">
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Arrivals Section End -->
+
+    <!-- About Services Section Start -->
+    <section class="container-fluid" id="services">
+            <h2 class="d-lg-none">Our Services</h2>
+            <h2 class="d-none d-lg-block">Learn About Our Services</h2>
+
+            <div class=".container-fluid py-4 service-container">
+
+                <div class="container">
+
+                    <div class="row justify-content-around service-list">
+
+                        <div class="col-12 col-lg-4 py-3 service-items">
+                    
+                            <div class="img-container">
+                                <img src="photos/vector-2.svg" alt="service">
+                            </div>
+        
+                           <h5>Installation</h5> 
+                           <p>
+                            We handle everything and equipment setup to configuration and testing, ensuring that your network is up and running efficiently.
+                           </p>
+                        </div>
+                        
+
+                        <div class="col-12 col-lg-4 py-3 service-items">
+                    
+                            <div class="img-container">
+                                <img src="photos/vector.svg" alt="service">
+                            </div>
+        
+                           <h5>Maintenance and Support</h5> 
+                           <p>
+                            We offer regular maintenance checks, firmware updates, troubleshooting assistance, and 24/7 technical support.
+                           </p>
+                        </div>
+
+                        <div class="col-12 col-lg-4 py-3 service-items">
+                    
+                            <div class="img-container">
+                                <img src="photos/vector-1.svg" alt="service">
+                            </div>
+        
+                           <h5>Consulting</h5> 
+                           <p>
+                            Our team of experts offers consulting services to help you design and implement custom FTTH network solutions.
+                           </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+    <!-- About Services Section Start -->
+
+    <!-- Featured Items Section Start -->
+    <section class="container-fluid d-none d-lg-block" id="featured">
+        
+        <h2>Featured Items</h2>
+        <p>Discover top picks and customer favorites for reliable network performance</p>
+        
+        <div class="container-fluid py-4 featured-container">
+            <div class="container">
+                <div class="row gap-3 justify-content-between featured-list">
+
+                    <!-- featured item 1 -->
+                    <div class="col-2 rounded featured-items">
+    
+                        <img src="photos/feature-1.png" alt="product" id="img">
+        
+                       <div class="contents">
+                        <h6>RL8602</h6>
+                        <p>2U Height, 2 service slots, 2*8 uplinks with 10GE/GE</p>
+                       </div>
+    
+                    </div>
+                    
+                    <!-- featured item 2 -->
+                    <div class="col-2 rounded featured-items">
+    
+                        <img src="photos/feature-2.png" alt="product" id="img">
+        
+                       <div class="contents">
+                        <h6>RL8602</h6>
+                        <p>2U Height, 2 service slots, 2*8 uplinks with 10GE/GE</p>
+                       </div>
+    
+                    </div>
+    
+                    <!-- featured item 3 -->
+                    <div class="col-2 rounded featured-items">
+    
+                        <img src="photos/feature3.svg" alt="product" id="img">
+        
+                       <div class="contents">
+                        <h6>RL8602</h6>
+                        <p>2U Height, 2 service slots, 2*8 uplinks with 10GE/GE</p>
+                       </div>
+    
+                    </div>
+    
+                    <!-- featured item 4 -->
+                    <div class="col-2 rounded featured-items">
+    
+                        <img src="photos/feature-4.svg" alt="product" id="img">
+        
+                       <div class="contents">
+                        <h6>RL8602</h6>
+                        <p>2U Height, 2 service slots, 2*8 uplinks with 10GE/GE</p>
+                       </div>
+    
+                    </div>
+    
+                    <!-- featured item 5 -->
+                    <div class="col-2 rounded featured-items">
+    
+                        <img src="photos/feature-5.svg" alt="product" id="img">
+        
+                       <div class="contents"
+                        <h6>RL8602</h6>
+                        <p>2U Height, 2 service slots, 2*8 uplinks with 10GE/GE</p>
+                       </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Featured Items Section End -->
+
+    <!-- About Us Section Start -->
+    <section class="container-fluid" id="about-us">
+        <div class="container about-us-container">
+
+                <div class="d-none d-lg-flex gap-4 img-container">
+                    <img src="photos/about-img-1.png" alt="blog">
+                    <img src="photos/about-img-2.png" alt="blog">
+                </div>
+
+            <div class="contents">
+                <h2>About Us</h2>
+                <div>
+                    <h6> <i class="fa-solid fa-circle-check"></i> Seasonal and Promotional Deals</h6>
+                    <p>Ut quis tempus erat. Phasellus euismod bibendum magna non tristique. Pellentesque semper vestibulum elit sed condimentum. Nunc pretium fermentum interdum. </p>
+                </div>
+                <div>
+                    <h6> <i class="fa-solid fa-circle-check"></i> Seasonal and Promotional Deals</h6>
+                    <p>Ut quis tempus erat. Phasellus euismod bibendum magna non tristique. Pellentesque semper vestibulum elit sed condimentum. Nunc pretium fermentum interdum. </p>
+                </div>
+
+                <button class="btn btn-lg py-2 px-4">
+                    Contact Now &#8594;
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Get In Touch Section Start -->
+    <section class="container-fluid" id="get-in-touch">
+
+        <div class="row justify-content-between">
+            
+            <div class="col-12 col-lg-6 contents">
+                <h2>Get In Touch</h2>
+                <p>
+                    Ready to take your network to the next level?  We're here to help!
+                </p>
+                <p>
+                    Whether you have questions about our products, need assistance with installation and maintenance, or want to discuss custom solutions for your network infrastructure, we're just a message away.
+                </p>
+            </div>
+
+            <div class="col-12 col-lg-6 form-container">
+                <form action="#" class="form-group">
+
+                    <h3>Write A Message</h3>
+                    <input type="text" class="form-control name" placeholder="Full Name"> <br>
+                    <input type="email" class="form-control email" placeholder="Email"> <br>
+                    <textarea name="message" class="form-control message" cols="30" rows="10" placeholder="Write a Message"></textarea><br>
+                    <button class="btn btn-lg">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Get In Touch Section End -->
+
+    <!-- Information and Contacts Section Start -->
+    <section class="container-fluid pt-5 pb-4 bg-light" id="info">
+
+        <div class="container py-4">
+
+            <div class="row justify-content-between">
+
+                <div class="col-12 col-lg-4">
+                    <h3>Mini Tech</h3>
+                    <address>
+                        No.65/B, Corner of Pyay Road & Kan Street, <br>
+                        Kamayut Township, Yangon, Myanmar, 11041
+                    </address>
+
+                    <p><a href="tel: (+959) 555-0114">(+959) 555-0114</a></p>
+                    <p><a href="mailTo: marketing@email.com">marketing@email.com</a></p>
+
+                </div>
+
+                <div class="col-12 col-lg-2">
+
+                    <h5>Quick Links</h5>
+                    <a href="#products">Our Products</a> <br>
+                    <a href="#arrivals">Latest Arrivals</a> <br>
+                    <a href="#services">Installations </a> <br>
+                    <a href="#">Maintenance Plans</a> <br>
+                    <a href="#">Consulting Services</a> <br>
+                    
+                </div>
+                <div class="col-12 col-lg-3">
+
+                    <h5>Contact Info</h5>
+                    <a href="#about-us">About Us</a> <br>
+                    <a href="#get-in-touch">Contact Us</a> <br>
+                    <a href="#">Privacy Policy</a> <br>
+
+                </div>
+
+                <div class="col-12 col-lg-3">
+
+                    <h5>Follow Us</h5>
+                    <a href="#"><img src="photos/facebook.svg" alt="social media"></a>
+                    <a href="#"><img src="photos/instagram.svg" alt="social media"></a>
+                    <a href="#"><img src="photos/whatsapp.svg" alt="social media"></a>
+                    <a href="#"><img src="photos/linkedin.svg" alt="social media"></a>
+                    <a href="#"><img src="photos/youtube.svg" alt="social media"></a>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Information and Contacts Section End -->
+    <!-- Page End -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="container-fluid py-5 text text-center">
+        <p>&copy; 2024 All Rights Reserved And Design </p>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+
+    <!-- Bootstrap Script Connect -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Fontawesome Link -->
+    <script src="https://kit.fontawesome.com/149adfc48b.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery Link Connect -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <!-- Custom UI Bundler js -->
+    <script src="js/app.js"></script>
+
+</body>
+</html>
