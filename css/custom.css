@@ -333,6 +333,7 @@ body {
   height: 260px;
   padding: 25px;
   border-right: 1px solid #ccc;
+  background-color: #fff;
 }
 #arrivals > .container .lg-items .item-lt h2 {
   text-align: start;
@@ -350,6 +351,7 @@ body {
   padding: 20px;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  background-color: #fff;
 }
 #arrivals > .container .lg-items .item-rt-container .item-rt h6 {
   font-size: 0.9rem;
